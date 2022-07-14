@@ -8,3 +8,10 @@
 aderullyakbar/aderullyakbar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+    $ echo '{"json":"obj"}' | python -m json.tool
+    {
+        "json": "obj"
+    }
+    $ echo '{ 1.2:3.4}' | python -m json.tool
+    Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
